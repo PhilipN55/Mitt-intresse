@@ -3,12 +3,13 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url();
+    background-image: url(StarCitizen2.png);
     background-size: cover;
+    background-position-y: 10vh;
 }
 
 .header{
-    background-color: black;
+    background-color: rgb(25, 25, 25);
     padding: 25px;
     display: flex;
     justify-content: space-between;
@@ -29,7 +30,7 @@ body{
 }
 
 .inforuta{
-    background-color: black;
+    background-color: black);
     position: relative;
     width: 40%;
     height: 50%;
