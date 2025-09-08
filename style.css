@@ -3,10 +3,13 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url(StarCitizen2.png);
+    background-image: url(stars.jpg);
     background-size: cover;
-    background-position-y: 10vh;
+    background-position-y: 6vh;
+    background-repeat: no-repeat;
 }
+
+a:hover{opacity: 0.5;}
 
 .header{
     background-color: rgb(25, 25, 25);
@@ -24,17 +27,22 @@ body{
 
 .Huvudsida{
     margin-top: 5%;
+    margin-left: 15%;
     display: flex;
-    justify-content: center;
+    justify-content: ;
     color: white;
 }
 
-.inforuta{
-    background-color: black);
+.inforuta{ 
+    background-color: rgb(25, 25, 25);
     position: relative;
-    width: 40%;
-    height: 50%;
+    width: 800px;
+    height: 500px;
+    border-radius: 20px;
 }
 .rubrik{
     position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
