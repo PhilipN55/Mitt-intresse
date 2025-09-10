@@ -2,6 +2,8 @@
 
 body{
     margin: 0;
+    background-image: url(newbabbage.png);
+    background-size: cover;
 }
 
 .header{
@@ -18,12 +20,29 @@ a{
     color: white;
 }
 
-.bilder{
-    width: 230px;
+.huvudsida{
     display: flex;
     flex-direction: column;
     gap: 15px;
-    border-color: rgb(25, 25, 25);
+    width: 50px;
+}
+
+.bilder{
+    width: 270px;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+
+.rad{
+    display: flex;
+}
+
+.rad p{
+    margin-left: 100px;
+    background-color: rgb(50, 50, 50);
     border-radius: 20px;
     padding: 20px;
+    color: white;
+    min-width: 1000px;
 }
