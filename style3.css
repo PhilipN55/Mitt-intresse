@@ -30,7 +30,7 @@ a{
 .planet img:hover{opacity: 0.7; cursor: pointer;}
 
 
-.container-info{
+.info{
     background-color: rgb(25, 25, 25);
     color: white;
     display: flex;
@@ -40,3 +40,7 @@ a{
     border-radius: 20px;
     height: 300px;
 }
+
+button{border: none; background: none;}
+
+.info h1{display: none;}
