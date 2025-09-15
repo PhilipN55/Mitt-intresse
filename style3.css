@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    background-image: url(Starmap-bakgrund.jpg);
+    background-size: cover;
+}
+
+.header{
+    background-color: rgb(25, 25, 25);
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 3vh;
+}
+
+a{
+    text-decoration: none;
+    margin-right: 60px;
+    color: white;
+}
+
+
+.planet
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.planet img:hover{opacity: 0.7; cursor: pointer;}
+
+
+.container-info{
+    background-color: rgb(25, 25, 25);
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 800px;
+    border-radius: 20px;
+    height: 300px;
+}
