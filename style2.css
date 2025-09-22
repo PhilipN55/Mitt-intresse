@@ -2,7 +2,7 @@
 
 body{
     margin: 0;
-    background-image: url(newbabbage.png);
+    background-image: url(shiphub.jpg);
     background-size: cover;
 }
 
@@ -28,7 +28,7 @@ a{
 }
 
 .bilder{
-    width: 270px;
+    width: 220px;
     border-radius: 20px;
     padding: 10px;
     margin-left: 50px;
@@ -39,7 +39,7 @@ a{
 }
 
 .rad p{
-    margin-left: 200px;
+    margin-left: 150px;
     background-color: rgb(50, 50, 50);
     border-radius: 20px;
     padding: 20px;
